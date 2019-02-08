@@ -261,7 +261,7 @@ P 3600 1350
 F 0 "R3" H 3670 1396 50  0000 L CNN
 F 1 "1.8k" H 3670 1305 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P25.40mm_Horizontal" V 3530 1350 50  0001 C CNN
-F 3 "https://www.mouser.de/ProductDetail/Vishay-Dale/RS02B1K800FE12?qs=sGAEpiMZZMtbXrIkmrvidDnVsdYYat5o0IDxxm9WPSA%3d" H 3600 1350 50  0001 C CNN
+F 3 "https://www.mouser.de/ProductDetail/Vishay-Dale/NS02B1K800FE12?qs=sGAEpiMZZMtbXrIkmrvidDdY%2fwKIbxTCkkyAtkN081w%3d" H 3600 1350 50  0001 C CNN
 	1    3600 1350
 	1    0    0    -1  
 $EndComp
@@ -402,7 +402,7 @@ P 3550 3050
 F 0 "R9" H 3620 3096 50  0000 L CNN
 F 1 "1.8k" H 3620 3005 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P25.40mm_Horizontal" V 3480 3050 50  0001 C CNN
-F 3 "https://www.mouser.de/ProductDetail/Vishay-Dale/RS02B1K800FE12?qs=sGAEpiMZZMtbXrIkmrvidDnVsdYYat5o0IDxxm9WPSA%3d" H 3550 3050 50  0001 C CNN
+F 3 "https://www.mouser.de/ProductDetail/Vishay-Dale/NS02B1K800FE12?qs=sGAEpiMZZMtbXrIkmrvidDdY%2fwKIbxTCkkyAtkN081w%3d" H 3550 3050 50  0001 C CNN
 	1    3550 3050
 	1    0    0    -1  
 $EndComp
@@ -413,7 +413,7 @@ P 3550 3500
 F 0 "R10" H 3620 3546 50  0000 L CNN
 F 1 "1.8k" H 3620 3455 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P25.40mm_Horizontal" V 3480 3500 50  0001 C CNN
-F 3 "https://www.mouser.de/ProductDetail/Vishay-Dale/RS02B1K800FE12?qs=sGAEpiMZZMtbXrIkmrvidDnVsdYYat5o0IDxxm9WPSA%3d" H 3550 3500 50  0001 C CNN
+F 3 "https://www.mouser.de/ProductDetail/Vishay-Dale/NS02B1K800FE12?qs=sGAEpiMZZMtbXrIkmrvidDdY%2fwKIbxTCkkyAtkN081w%3d" H 3550 3500 50  0001 C CNN
 	1    3550 3500
 	1    0    0    -1  
 $EndComp
@@ -424,7 +424,7 @@ P 3600 1800
 F 0 "R4" H 3670 1846 50  0000 L CNN
 F 1 "1.8k" H 3670 1755 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P25.40mm_Horizontal" V 3530 1800 50  0001 C CNN
-F 3 "https://www.mouser.de/ProductDetail/Vishay-Dale/RS02B1K800FE12?qs=sGAEpiMZZMtbXrIkmrvidDnVsdYYat5o0IDxxm9WPSA%3d" H 3600 1800 50  0001 C CNN
+F 3 "https://www.mouser.de/ProductDetail/Vishay-Dale/NS02B1K800FE12?qs=sGAEpiMZZMtbXrIkmrvidDdY%2fwKIbxTCkkyAtkN081w%3d" H 3600 1800 50  0001 C CNN
 	1    3600 1800
 	1    0    0    -1  
 $EndComp
@@ -579,4 +579,6 @@ F 3 "~" H 1850 3200 50  0001 C CNN
 	1    1450 3300
 	1    0    0    -1  
 $EndComp
+Text Notes 1800 700  0    50   ~ 0
+Resistors should be low noise, low inductance wirewound resistors
 $EndSCHEMATC
