@@ -136,7 +136,7 @@ Wire Wire Line
 	3600 1950 3600 2200
 Connection ~ 3600 2200
 Wire Wire Line
-	3600 1650 3600 1500
+	3600 1650 3600 1600
 Wire Wire Line
 	3600 1200 3600 1000
 Connection ~ 3600 1000
@@ -158,7 +158,7 @@ Wire Wire Line
 	3550 3650 3550 3900
 Connection ~ 3550 3900
 Wire Wire Line
-	3550 3350 3550 3200
+	3550 3350 3550 3300
 Wire Wire Line
 	3550 2900 3550 2700
 Connection ~ 3550 2700
@@ -581,4 +581,32 @@ F 3 "~" H 1850 3200 50  0001 C CNN
 $EndComp
 Text Notes 1800 700  0    50   ~ 0
 Resistors should be low noise, low inductance wirewound resistors
+$Comp
+L power:GND #PWR?
+U 1 1 5C5EC0A4
+P 3600 1600
+F 0 "#PWR?" H 3600 1350 50  0001 C CNN
+F 1 "GND" H 3605 1427 50  0000 C CNN
+F 2 "" H 3600 1600 50  0001 C CNN
+F 3 "" H 3600 1600 50  0001 C CNN
+	1    3600 1600
+	0    1    1    0   
+$EndComp
+Connection ~ 3600 1600
+Wire Wire Line
+	3600 1600 3600 1500
+$Comp
+L power:GND #PWR?
+U 1 1 5C5ECD9E
+P 3550 3300
+F 0 "#PWR?" H 3550 3050 50  0001 C CNN
+F 1 "GND" H 3555 3127 50  0000 C CNN
+F 2 "" H 3550 3300 50  0001 C CNN
+F 3 "" H 3550 3300 50  0001 C CNN
+	1    3550 3300
+	0    1    1    0   
+$EndComp
+Connection ~ 3550 3300
+Wire Wire Line
+	3550 3300 3550 3200
 $EndSCHEMATC
